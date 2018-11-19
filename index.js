@@ -1,13 +1,14 @@
+let arra = [];
 function sumOfOther (arr) {
-var arra = [];
+
     for(i=0; i<arr.length; i++) {
         
     var s = arr.reduce((a,b) => a+b) - arr[i];
     
-     console.log(s);
+    arra.push(s);
     }
 
-
+return arra;
 }
 
 
